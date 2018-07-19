@@ -1,0 +1,1 @@
+This application is a tool that will scrape a wholesalers website for product details. Sellers can list on their desired marketplace with the product details that are gathered.
