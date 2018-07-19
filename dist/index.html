@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.2/css/bootstrap.min.css">
+    <title>Product Scraper</title>
+</head>
+<body>
+
+    <!-- Nav Bar -->
+    <header>
+        <nav class="navbar navbar-expand-md bg-primary">
+            <div class="container">
+                <a class="navbar-brand">Product Scraper</a>
+                <button class="navbar-toggler" type="button">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+            </div>
+        </nav>
+    </header>
+
+    <!-- App Body -->
+    <div class="container mt-5">
+        <div class="row">
+            <div class="col-sm-12">
+                <div class="form-group">
+                    <label class="h2">Link Box</label>
+                    <input id="inputLink" class="form-control" id="productLink" />
+                </div>
+                <button id="processBtn" class="btn btn-primary">Process</button>
+            </div>
+        </div>
+
+        <!-- Output Row -->
+        <div class="row mt-5">
+            <div class="col-sm-12">
+                <div id="outputArea">
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- SCRIPTS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.2/js/bootstrap.min.js"></script>
+    <script src="./bundle.js"></script>
+</body>
+</html>
