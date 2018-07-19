@@ -39,6 +39,10 @@ processBtn.addEventListener('click', () => {
             // console.log(productTitle);
 
             outputArea.innerHTML += `<li>${productTitle}</li>`;
+            const productObj = {
+                title: productTitle
+            }
+            localStorage.setItem('product', JSON.stringify(productObj))
         })
     .catch(err => console.log(err));
 
